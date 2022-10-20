@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    background-color: orange;
+    border-bottom: 2px solid black;
+    line-height: 70px;
+    width: 100%;
+}
+nav li{
+    text-decoration: none;
+    float: left;
+    list-style-type: none;
+    margin-left: 350px;
+    margin-right: -200px;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+nav li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+h1{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: orange;
+}
+iframe{
+    border-radius: 10px;
+}
+.fa-facebook{
+    margin-left: 550px;
+    color: black;
+    text-decoration: none;
+}
+.fa-instagram{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.fa-twitter{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.fa-whatsapp{
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
